@@ -72,7 +72,7 @@ async function main() {
             let tokenBalance = await provider.getBalance(wallet.address, "latest", tokenAddress.usdcAddress);
             console.log('tokenBalance', tokenBalance.toString(), tokenBalance);
 
-            tokenBalance = floatToFixed(1, 6);
+            // tokenBalance = floatToFixed(1, 6);
         //     await sleep(1);
 
 
